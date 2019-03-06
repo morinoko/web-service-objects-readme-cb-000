@@ -20,4 +20,8 @@ class FoursquareService
 
     JSON.parse(resp.body)["response"]["friends"]["items"]
   end
+
+  def foursquare
+
+  end
 end

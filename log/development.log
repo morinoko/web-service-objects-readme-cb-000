@@ -2013,3 +2013,5 @@ Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
 Started GET "/friends" for 126.2.63.14 at 2019-03-06 23:01:12 +0000
 Cannot render console from 126.2.63.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 Processing by SearchesController#friends as HTML
+  Rendered searches/friends.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 195ms (Views: 18.4ms | ActiveRecord: 0.0ms)
