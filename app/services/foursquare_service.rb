@@ -17,7 +17,7 @@ class FoursquareService
       req.params['oauth_token'] = session[:token]
       req.params['v'] = '20160201'
     end
-    
+
     JSON.parse(resp.body)["response"]["friends"]["items"]
   end
 end
