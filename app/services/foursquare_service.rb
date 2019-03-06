@@ -30,4 +30,8 @@ class FoursquareService
       req.params['query'] = 'coffee shop'
     end
   end
+
+  def tips()
+
+  end
 end
